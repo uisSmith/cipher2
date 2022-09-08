@@ -20,6 +20,14 @@ struct cipher2Document: FileDocument {
     init(text: String = "Hello, world!") {
         self.text = text
     }
+    
+    func cipher( text:String, shift:Int ) -> String {
+        return ""   
+    }
+    
+    func decipher( text:String, shift:Int ) -> String {
+        return ""
+    }
 
     static var readableContentTypes: [UTType] { [.exampleText] }
 
